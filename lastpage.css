@@ -1,0 +1,12 @@
+.sentence{
+    padding: 25px;
+    border: dotted 10px yellow;
+   
+
+}
+.inner-div{
+    margin: 10% auto;
+    border: solid 10px blue;
+
+
+}
