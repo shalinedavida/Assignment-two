@@ -5,58 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body style="background-color: rgb(224, 202, 224);">
-    
     <div class="container">
-    <form class="form">
-        <h2>Sign Up</h2> 
-        
+        <form class="form" autocomplete="off">
+            <h2>Sign Up</h2> 
 
-        <label for="email"><strong>Email</strong></label>
-        <br><br>
-        <input id="email" type="email">
-        <br><br>
-        <label for="password"><strong>Password</strong></label>
-        <br><br>
-        <input id="password" type="password">
-        <br><br>
-        <label for="confirm password"><strong>Confirm Password</strong></label>
-        <br><br>
-        <input id="confirm password" type="password">
-        <br><br>
-    
-        <input type="checkbox" id="checkbox">
-        <label>By signing the account you accept our<a href="#"></a> & Conditions</a> and <a href="#">Policy</a></label>
-        <div class="submit-button">
-        <button type="submit">SignUp</button>
-        </div>
-        <br><br>
-        <div class="icon">
-            
-            <button><img src="https://img.icons8.com/?size=48&id=V5cGWnc9R4xj&format=png">Google<button>
-            <button><img src="https://img.icons8.com/?size=80&id=z657ovoGgS2o&format=png">Facebook</button>
-        </div>
-        <div class="signupdetails">
-            <p>Already have an account<a href="login.html">Login</a></p>
-        </div>
+            <label for="email"><strong>Email</strong></label>
+            <br><br>
+            <input id="email" name="email" type="email" required>
+            <br><br>
+
+            <label for="password"><strong>Password</strong></label>
+            <br><br>
+            <input id="password" name="password" type="password" required>
+            <br><br>
+
+            <label for="confirm-password"><strong>Confirm Password</strong></label>
+            <br><br>
+            <input id="confirm-password" name="confirm-password" type="password" required>
+            <br><br>
+        
+            <input type="checkbox" id="checkbox" required>
+            <label for="checkbox">
+                By signing up you accept our 
+                <a href="#">Terms & Conditions</a> and 
+                <a href="#">Policy</a>
+            </label>
+            <div class="submit-button">
+                <button type="submit">Sign Up</button>
+            </div>
+            <br><br>
+            <div class="icon">
+                <button type="button">
+                    <img src="https://img.icons8.com/?size=48&id=V5cGWnc9R4xj&format=png" alt="Google"> Google
+                </button>
+                <button type="button">
+                    <img src="https://img.icons8.com/?size=80&id=z657ovoGgS2o&format=png" alt="Facebook"> Facebook
+                </button>
+            </div>
+            <div class="signupdetails">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
         </form>
-        
-        
-
-
-
         <div class="picture">
-            
-<img src="https://img.freepik.com/free-photo/positive-dark-skinned-woman-holds-yoga-mat-dumbbell-wears-sportclothes-has-towel-neck_273609-27340.jpg?ga=GA1.1.387464725.1743095561&semt=ais_hybrid" height="700" width="500">
+            <img src="https://img.freepik.com/free-photo/positive-dark-skinned-woman-holds-yoga-mat-dumbbell-wears-sportclothes-has-towel-neck_273609-27340.jpg?ga=GA1.1.387464725.1743095561&semt=ais_hybrid" height="700" width="500" alt="Fitness Woman">
         </div>
-        </div>
-    
-
-        
-
-
-
+    </div>
 </body>
 </html>

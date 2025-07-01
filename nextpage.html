@@ -3,123 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table, th, td {
-          border:1px solid black;
-        }
-        </style>
-    <title>Table</title>
+    <title>Top 10 Female Scientists</title>
     <link rel="stylesheet" href="nextpage.css">
-
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 24px;
+            background: #fff8f0;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        }
+        h2 {
+            text-align: center;
+            color: #3d2a13;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 28px;
+            background: #fff;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #b69b7c;
+            padding: 12px 14px;
+            text-align: left;
+            font-size: 1rem;
+        }
+        th {
+            background-color: #e6ccb2;
+            color: #3d2a13;
+        }
+        tr:nth-child(even) {
+            background-color: #f6e4d4;
+        }
+        a {
+            color: #5d3a00;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #c97c41;
+        }
+        .button-container {
+            text-align: right;
+        }
+        .student-btn {
+            background-color: #c97c41;
+            color: #fff;
+            padding: 10px 26px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            margin-top: 16px;
+            display: inline-block;
+        }
+        .student-btn:hover {
+            background-color: #a25d23;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 10px; }
+            th, td { padding: 8px 6px; font-size: 0.95rem; }
+        }
+    </style>
 </head>
-<form>
-  <div class="table">
-<body style="background-color: antiquewhite;">
- <h2>Top 10 Female Scientists </h2>
-
-<table style="width:50%">
-  <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Wikipedia link</th>
-  </tr>
-  <tr>
-    <td>Marie</td>
-    <td>Curie</td>
-    <td><a href="https://en.wikipedia.org/wiki/Marie_Curie">mariecurie</a></td>
-  </tr>
-  <tr>
-    <td>Rachel</td>
-    <td>Carson</td>
-    <td><a href="https://en.wikipedia.org/wiki/Rachel_Carson">rachelcarson</a></td>
-  </tr>
-  <tr>
-    <td>Dorothy</td>
-    <td>Hodgin</td>
-    <td><a href="https://en.wikipedia.org/wiki/Dorothy_Hodgkin">dorothyhodgin</a></td>
-  </tr>
-  <tr>
-    <td>Rosalind</td>
-    <td>Franklin</td>
-    <td><a href="https://en.wikipedia.org/wiki/Rosalind_Franklin">rosalindfranklin</a></td>
-  </tr>
-  <tr>
-    <td>Chien-Shiung</td>
-    <td>Wu</td>
-    <td><a href="https://en.wikipedia.org/wiki/Chien-Shiung_Wu">chien-shiungwu</a></td>
-  </tr>
-  <tr>
-    <td>Mary</td>
-    <td>Anning</td>
-    <td><a href="https://en.wikipedia.org/wiki/Mary_Anning">maryanning</a></td>
-
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>Goodall</td>
-    <td><a href="https://en.wikipedia.org/wiki/Jane_Goodall">janegoodall</a></td>
-</tr>
-<tr>
-    <td>Barbara</td>
-    <td>McClintock</td>
-    <td><a href="https://en.wikipedia.org/wiki/Barbara_McClintock">barbaramcclintock</a></td>
-</tr>
-<tr>
-<td>Mae</td>
-<td>Jemison</td>
-<td><a href="https://en.wikipedia.org/wiki/Mae_Jemison">maejemison</a></td>
-</tr>
-  <tr>
-    <td>Ada</td>
-    <td>Lovelace</td>
-    <td><a href="https://en.wikipedia.org/wiki/Ada_Lovelace">adalovelace</a></td>
-  </tr>
-  </table>
-  <div>
-<button  type="button"><a href="lastpage.html">Student</a></button>
-</div>
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+<body>
+    <div class="container">
+        <h2>Top 10 Female Scientists</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Wikipedia Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marie</td>
+                    <td>Curie</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Marie_Curie" target="_blank" rel="noopener">mariecurie</a></td>
+                </tr>
+                <tr>
+                    <td>Rachel</td>
+                    <td>Carson</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Rachel_Carson" target="_blank" rel="noopener">rachelcarson</a></td>
+                </tr>
+                <tr>
+                    <td>Dorothy</td>
+                    <td>Hodgkin</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Dorothy_Hodgkin" target="_blank" rel="noopener">dorothyhodgkin</a></td>
+                </tr>
+                <tr>
+                    <td>Rosalind</td>
+                    <td>Franklin</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Rosalind_Franklin" target="_blank" rel="noopener">rosalindfranklin</a></td>
+                </tr>
+                <tr>
+                    <td>Chien-Shiung</td>
+                    <td>Wu</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Chien-Shiung_Wu" target="_blank" rel="noopener">chien-shiungwu</a></td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Anning</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Mary_Anning" target="_blank" rel="noopener">maryanning</a></td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Goodall</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Jane_Goodall" target="_blank" rel="noopener">janegoodall</a></td>
+                </tr>
+                <tr>
+                    <td>Barbara</td>
+                    <td>McClintock</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Barbara_McClintock" target="_blank" rel="noopener">barbaramcclintock</a></td>
+                </tr>
+                <tr>
+                    <td>Mae</td>
+                    <td>Jemison</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Mae_Jemison" target="_blank" rel="noopener">maejemison</a></td>
+                </tr>
+                <tr>
+                    <td>Ada</td>
+                    <td>Lovelace</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank" rel="noopener">adalovelace</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-container">
+            <a href="lastpage.html" class="student-btn">Student</a>
+        </div>
+    </div>
 </body>
 </html>
